@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-erxr
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/ci10t-776-0032-tenant/ci10t-776-0032-app/devfile-sample-erxr@sha256:7363d1babaf52a2dafa02669762821fb3b68b44072b28da4c4acfa7619612e9e
+        name: my-nodejs
+        resources: {}
+status: {}
